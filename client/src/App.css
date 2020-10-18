@@ -1,0 +1,77 @@
+#top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10px;
+}
+
+#burgerbar {  
+    width: 50vw;
+}
+    
+#sidebarNav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+} /* google transition and transition duration */
+
+#socialsTop {
+    display: flex;
+    justify-content: flex-end;
+    width: 50vw;
+}
+
+#header {
+    text-align: center;
+}
+
+img {
+    width: 40px;
+}
+
+#intro {
+    text-align: center;
+}
+
+#portrait {
+    width: 150px
+}
+
+#footer {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#footerlinks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+
+#socialsbottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 15px 0px 15px;
+}
+
+#copyright {
+    margin:0px;
+}
+
+
+
+/* 
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+} */
+
+/* media-query portait to be photo, then name with title beneath */
