@@ -2,7 +2,14 @@ import React from 'react';
 
 function AboutMe() {
     return (
-        <div>
+        <div id="aboutme">
+            <h1>About Olivia</h1>
+
+            <p className="summary">
+                This site is a testament to the many projects and materials that encompass my identity as a maker. I hope you enjoy and please, feel free to contact me with any questions or requests.
+            </p>
+            <hr />
+
             <p>
                 Hello and welcome to my personal portfolio. I'm excited to share my story with you!
             </p>
@@ -19,9 +26,7 @@ function AboutMe() {
                 When I'm not learning JavaScript, React, HTML, and CSS I make RPG dice and functional pottery. I also enjoy reading and spending time in my communities.
             </p>
             <hr />
-            <p>
-                This site is a testament to the many projects and materials that encompass my identity as a maker. I hope you enjoy and please, feel free to contact me with any questions or requests.
-            </p>
+
 
         </div >
     )

@@ -34,10 +34,10 @@ function App() {
           <Route path="/Projects" component={Projects} />
           <Route path="/Work" component={Work} />
           
-                    <Route path="/components/CodingProjects" component={CodingProjects} />
-                    <Route path="/components/PotteryProjects" component={PotteryProjects} />
-                    <Route path="/components/DiceProjects" component={DiceProjects} />
-                
+          <Route path="/components/CodingProjects" component={CodingProjects} />
+          <Route path="/components/PotteryProjects" component={PotteryProjects} />
+          <Route path="/components/DiceProjects" component={DiceProjects} />
+
         </Switch>
 
         <Footer />

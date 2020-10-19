@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import SocialsBottom from '../components/SocialsBottom'
-import '../App.css';
 
 function Footer() {
     return (
@@ -17,9 +16,8 @@ function Footer() {
                 <Link to="/Contact">Contact Me</Link>
                 <Link to="/Hobbies">Hobbies</Link>
                 <Link to="/Work">Work History</Link>
-    
             </div>
-
+            
             <SocialsBottom />
 
             <p id="copyright">Copyright Olivia Hartwig 2020</p>

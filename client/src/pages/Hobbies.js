@@ -2,12 +2,14 @@ import React from 'react';
 
 function Hobbies() {
     return (
-        <div>
-            <h4>My identity as a maker is rooted in curiousity.</h4>
-            <p>
+        <div id="hobbies">
+            <h1>To make is to be curious.</h1>
+            
+            <p className="summary">
                 Below is a list of the ways I explore the world and seek to understand my place within it.
             </p>
-            <ul id="hobbieslist">
+            <hr/>
+            <ul>
             <li>Connection</li>
                 <li id="subli">
                     Building and growing community is a talent that I find great joy and purpose in. Existing within and being supported by a group of individuals who chose one another due to shared purpose or identities or not by choice at all--but are committed to making the best of it-- is one of my core values. 
@@ -44,7 +46,7 @@ function Hobbies() {
                     </li>
 
             </ul>
-
+<hr />
 
         </div>
     )

@@ -1,6 +1,5 @@
 import React from 'react';
-import '../App.css';
-
+import { BrowserRouter as Link } from "react-router-dom";
 
 function Home() {
 
@@ -12,11 +11,13 @@ function Home() {
                 <h4>Software Developer - Maker</h4>
             </div>
 
-            <div>
-                <img src="" alt="" title="" />
-                <img src="" alt="" title="" />
-                <img src="" alt="" title="" />
-                <img src="" alt="" title="" />
+            <div id="homegallery">
+            <Link to="../components/PotteryProjects"><img src="/images/claygallery/home1.png" alt="" title="" /></Link>
+            <Link to="../components/PotteryProjects"><img src="/images/claygallery/home2.png" alt="" title="" /></Link>
+            <Link to="../components/DiceProjects"><img src="/images/dicegallery/dice1.png" alt="" title="" /></Link>
+            <Link to="../components/DiceProjects"><img src="/images/dicegallery/dice2.png" alt="" title="" /></Link>
+            <Link to="../components/CodingProjects"><img src="/images/codingprojectsicons/harkenssite.png" alt="" title="" /></Link>
+            <Link to="../components/DiceProjects"><img src="/images/codingprojectsicons/tictactoe.png" alt="" title="" /></Link>
             </div>
 
         </div>
