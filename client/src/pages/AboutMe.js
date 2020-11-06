@@ -1,5 +1,7 @@
+//import React
 import React from 'react';
 
+//this component holds the container for the header and About Me information
 function AboutMe() {
     return (
         <div id="aboutme">

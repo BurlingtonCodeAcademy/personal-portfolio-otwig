@@ -1,6 +1,11 @@
+//this page holds images and links for users to explore my dice projects
+
+//import React
 import React from 'react';
 
-
+//dice projects component creation
+//first, a header and a link to my dice instagram site
+//then, photos of my favorite dice
 function DiceProjects() {
     return (
         <div id="dicegallery">

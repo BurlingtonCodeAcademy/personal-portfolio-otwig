@@ -1,3 +1,4 @@
+//imports for React and React Router and components for use below
 import React from 'react';
 import './App.css';
 import SocialsTop from './components/SocialsTop';
@@ -8,14 +9,14 @@ import Contact from "./pages/Contact";
 import Hobbies from "./pages/Hobbies";
 import Projects from "./pages/Projects";
 import Work from "./pages/Work";
-import Footer from "./pages/Footer"
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
+import Footer from "./pages/Footer";
 import DiceProjects from './components/DiceProjects';
 import CodingProjects from './components/CodingProjects';
 import PotteryProjects from './components/PotteryProjects';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-
+//this component holds both visual parts of the top of the site (the burger menu button and social media buttons) 
+//as well as the functional parts for React Router to allow other components to be rendered to the page (everything within the <Switch> tag below)
 function App() {
 
   return (
@@ -33,7 +34,7 @@ function App() {
           <Route path="/Hobbies" component={Hobbies} />
           <Route path="/Projects" component={Projects} />
           <Route path="/Work" component={Work} />
-          
+
           <Route path="/components/CodingProjects" component={CodingProjects} />
           <Route path="/components/PotteryProjects" component={PotteryProjects} />
           <Route path="/components/DiceProjects" component={DiceProjects} />

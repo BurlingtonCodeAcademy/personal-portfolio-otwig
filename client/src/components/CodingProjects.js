@@ -1,14 +1,18 @@
+//this page holds images and links for users to explore my coding projects
+
+//import React
 import React from 'react';
 
-
+//coding projects component creation
+//each <a> tag is clickable and includes an icon and a title
+//when clicked, each takes you to a different project website
 function CodingProjects() {
     return (
         <div id="codingprojects">
-
             <h1>Coding Projects</h1>
             <hr />
-            < br/>
-            
+            < br />
+
             <a href="https://github.com/BurlingtonCodeAcademy/tic-tac-toe-emily-olivia">
                 <img src="/images/codingprojectsicons/tic-tac-toe.svg" title="" alt="" />
                 <p>Tic-Tac-Toe Browser Game</p>
@@ -28,7 +32,7 @@ function CodingProjects() {
                 <img src="/images/codingprojectsicons/dice.svg" title="" alt="" />
                 <p>www.HarkensDice.com</p>
             </a>
-            
+
 
         </div>
     )
