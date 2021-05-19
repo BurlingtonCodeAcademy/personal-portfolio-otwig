@@ -23,7 +23,7 @@ function Home() {
                 </div>
 
                 <div id="homegallery">
-                    <a href="http://www.harkensdice.com/" alt=""><img src="/images/diceGallery/harkensdice.png" alt="" title="" /></a>
+                    <a href="http://www.harkensdice.com/" alt=""><img src="/images/dicegallery/harkensdice.png" alt="" title="" /></a>
                     <a href="http://www.phantomtheater.org/" alt=""><img src="/images/phantomlogo.jpg" alt="" title="" /></a>
 
                     {/* <Link to="../components/PotteryProjects"><img src="/images/claygallery/home1.png" alt="" title="" /></Link>
