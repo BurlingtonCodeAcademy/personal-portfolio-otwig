@@ -23,8 +23,8 @@ function App() {
     <Router>
       <div className="App">
         <div id="top">
-          <Burger />
-          <SocialsTop />
+          {/* <Burger /> */}
+          {/* <SocialsTop /> */}
         </div>
 
         <Switch>
